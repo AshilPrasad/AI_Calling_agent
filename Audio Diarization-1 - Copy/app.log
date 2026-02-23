@@ -1,0 +1,694 @@
+2025-11-09 22:28:43,206 - logger_setup - INFO - Starting application...
+2025-11-09 22:28:43,206 - logger_setup - INFO - App running in 'production' mode
+2025-11-09 22:28:43,206 - logger_setup - INFO - Using device: cpu, model: small
+2025-11-09 22:28:43,206 - logger_setup - INFO - Preloading models...
+2025-11-09 22:28:43,206 - logger_setup - INFO - Loading WhisperX model 'small'...
+2025-11-09 22:28:50,356 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-09 22:28:50,356 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-09 22:28:50,356 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-09 22:28:50,361 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-09 22:28:50,808 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-09 22:28:50,808 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-09 22:28:54,185 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-09 22:28:54,206 - logger_setup - INFO - Transcription model loaded successfully
+2025-11-09 22:28:54,206 - logger_setup - INFO - Models loaded successfully
+2025-11-09 22:29:06,268 - logger_setup - INFO - Validated audio file format: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 22:29:06,272 - logger_setup - INFO - Processing audio file: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 22:29:06,274 - logger_setup - INFO - Starting transcription and diarization...
+2025-11-09 22:29:06,276 - logger_setup - INFO - Loading audio from C:\Users\ashil.p\AppData\Local\Temp\tmpcmsqcr5c.tmp
+2025-11-09 22:29:07,425 - logger_setup - INFO - Transcribing audio...
+2025-11-09 22:29:29,915 - logger_setup - INFO - Aligning words...
+2025-11-09 22:29:41,550 - logger_setup - INFO - Performing diarization...
+2025-11-09 22:30:28,351 - logger_setup - INFO - ✅ Transcription complete: 16 segments
+2025-11-09 22:30:28,351 - logger_setup - INFO - Starting summarization...
+2025-11-09 22:30:30,950 - logger_setup - INFO - Generating summary with LLM...
+2025-11-09 22:30:33,905 - logger_setup - INFO - Successfully processed audio: 16 segments
+2025-11-09 22:30:33,920 - logger_setup - INFO - Cleaned up temp file: C:\Users\ashil.p\AppData\Local\Temp\tmpcmsqcr5c.tmp
+2025-11-09 22:31:50,026 - logger_setup - INFO - Shutting down application...
+2025-11-09 22:31:50,115 - logger_setup - INFO - Models cleaned up
+2025-11-09 23:07:46,476 - app.logger - INFO - App starting in 'production' mode
+2025-11-09 23:07:46,476 - app.logger - INFO - Using device: cpu, model: small
+2025-11-09 23:07:46,481 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-09 23:07:46,481 - app.logger - INFO - Log level set to: INFO
+2025-11-09 23:07:46,481 - app.logger - INFO - Configuration loaded successfully.
+2025-11-09 23:07:46,519 - app.logger - INFO - Starting application...
+2025-11-09 23:07:46,519 - app.logger - INFO - Preloading models...
+2025-11-09 23:07:46,519 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-09 23:07:51,433 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-09 23:07:51,433 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-09 23:07:51,433 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-09 23:07:51,435 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-09 23:07:51,926 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-09 23:07:51,926 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-09 23:07:54,111 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-09 23:07:54,131 - app.logger - INFO - Models loaded successfully
+2025-11-09 23:09:43,537 - app.logger - INFO - Shutting down application...
+2025-11-09 23:09:43,577 - app.logger - INFO - Models cleaned up
+2025-11-09 23:17:19,152 - app.logger - INFO - App starting in 'production' mode
+2025-11-09 23:17:19,152 - app.logger - INFO - Using device: cpu, model: small
+2025-11-09 23:17:19,152 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-09 23:17:19,152 - app.logger - INFO - Log level set to: INFO
+2025-11-09 23:17:19,152 - app.logger - INFO - Configuration loaded successfully.
+2025-11-09 23:17:19,193 - app.logger - INFO - Starting application...
+2025-11-09 23:17:19,194 - app.logger - INFO - Preloading models...
+2025-11-09 23:17:19,196 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-09 23:17:24,385 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-09 23:17:24,386 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-09 23:17:24,386 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-09 23:17:24,389 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-09 23:17:24,878 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-09 23:17:24,878 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-09 23:17:26,967 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-09 23:17:26,988 - app.logger - INFO - Models loaded successfully
+2025-11-09 23:17:58,460 - app.logger - INFO - Validated audio file format: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:17:58,464 - app.logger - INFO - Processing audio file: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:17:58,468 - app.logger - INFO - Starting transcription and diarization...
+2025-11-09 23:17:58,470 - app.logger - INFO - Loading audio from C:\Users\ashil.p\AppData\Local\Temp\tmpoputvnuw.tmp
+2025-11-09 23:17:58,726 - app.logger - INFO - Transcribing audio...
+2025-11-09 23:18:21,155 - app.logger - INFO - Aligning words...
+2025-11-09 23:18:32,409 - app.logger - INFO - Performing diarization...
+2025-11-09 23:18:56,282 - app.logger - INFO - ✅ Transcription complete: 16 segments
+2025-11-09 23:18:56,282 - app.logger - INFO - Starting summarization...
+2025-11-09 23:18:57,507 - app.logger - INFO - Generating summary with LLM...
+2025-11-09 23:19:00,983 - app.logger - INFO - Successfully processed audio: 16 segments
+2025-11-09 23:19:01,003 - app.logger - INFO - Cleaned up temp file: C:\Users\ashil.p\AppData\Local\Temp\tmpoputvnuw.tmp
+2025-11-09 23:35:53,594 - app.logger - INFO - Shutting down application...
+2025-11-09 23:35:53,674 - app.logger - INFO - Models cleaned up
+2025-11-09 23:36:07,215 - app.logger - INFO - App starting in 'production' mode
+2025-11-09 23:36:07,215 - app.logger - INFO - Using device: cpu, model: small
+2025-11-09 23:36:07,219 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-09 23:36:07,221 - app.logger - INFO - Log level set to: INFO
+2025-11-09 23:36:07,221 - app.logger - INFO - Configuration loaded successfully.
+2025-11-09 23:36:07,269 - app.logger - INFO - Starting application...
+2025-11-09 23:36:07,269 - app.logger - INFO - Preloading models...
+2025-11-09 23:36:07,269 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-09 23:36:16,134 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-09 23:36:16,134 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-09 23:36:16,134 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-09 23:36:16,134 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-09 23:36:17,332 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-09 23:36:17,332 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-09 23:36:22,070 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-09 23:36:22,123 - app.logger - INFO - Models loaded successfully
+2025-11-09 23:37:27,817 - app.logger - WARNING - Invalid audio format: mp4 (file: 208253969-7e35fe2a-7541-434a-ae91-8e919540555d.mp4)
+2025-11-09 23:37:30,959 - app.logger - WARNING - Invalid audio format: mp4 (file: 208253969-7e35fe2a-7541-434a-ae91-8e919540555d.mp4)
+2025-11-09 23:37:44,665 - app.logger - INFO - Validated audio file format: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:37:44,667 - app.logger - INFO - Processing audio file: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:37:44,698 - app.logger - INFO - Starting transcription and diarization...
+2025-11-09 23:37:44,698 - app.logger - INFO - Loading audio from C:\Users\ashil.p\AppData\Local\Temp\tmp0nqklwij.tmp
+2025-11-09 23:37:44,897 - app.logger - INFO - Transcribing audio...
+2025-11-09 23:37:56,372 - app.logger - INFO - Aligning words...
+2025-11-09 23:38:00,245 - app.logger - INFO - Performing diarization...
+2025-11-09 23:38:16,664 - app.logger - INFO - ✅ Transcription complete: 16 segments
+2025-11-09 23:38:16,664 - app.logger - INFO - Starting summarization...
+2025-11-09 23:38:17,772 - app.logger - INFO - Generating summary with LLM...
+2025-11-09 23:38:20,899 - app.logger - INFO - Successfully processed audio: 16 segments
+2025-11-09 23:38:20,910 - app.logger - INFO - Cleaned up temp file: C:\Users\ashil.p\AppData\Local\Temp\tmp0nqklwij.tmp
+2025-11-09 23:52:00,064 - app.logger - INFO - App starting in 'production' mode
+2025-11-09 23:52:00,064 - app.logger - INFO - Using device: cpu, model: small
+2025-11-09 23:52:00,064 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-09 23:52:00,064 - app.logger - INFO - Log level set to: INFO
+2025-11-09 23:52:00,064 - app.logger - INFO - Configuration loaded successfully.
+2025-11-09 23:52:00,114 - app.logger - INFO - Starting application...
+2025-11-09 23:52:00,114 - app.logger - INFO - Preloading models...
+2025-11-09 23:52:00,116 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-09 23:52:03,327 - app.logger - ERROR - Failed to load transcription model: No module named 'transformers'
+2025-11-09 23:52:03,327 - app.logger - ERROR - Failed to preload models: No module named 'transformers'
+2025-11-09 23:52:22,092 - app.logger - INFO - Validated audio file format: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:52:22,092 - app.logger - INFO - Processing audio file: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:52:22,094 - app.logger - INFO - Starting transcription and diarization...
+2025-11-09 23:52:22,097 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-09 23:52:22,103 - app.logger - ERROR - Failed to load transcription model: No module named 'transformers'
+2025-11-09 23:52:22,103 - app.logger - ERROR - WhisperX processing failed: No module named 'transformers'
+Traceback (most recent call last):
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\app\services\transcription.py", line 39, in transcribe_and_diarize
+    load_models()
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\app\services\transcription.py", line 15, in load_models
+    models_cache.transcription_model = whisperx.load_model(
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\__init__.py", line 20, in load_model
+    asr = _lazy_import("asr")
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\__init__.py", line 5, in _lazy_import
+    module = importlib.import_module(f"whisperx.{name}")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\asr.py", line 11, in <module>
+    from transformers import Pipeline
+ModuleNotFoundError: No module named 'transformers'
+2025-11-09 23:52:31,886 - app.logger - INFO - Validated audio file format: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:52:31,886 - app.logger - INFO - Processing audio file: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:52:31,895 - app.logger - INFO - Starting transcription and diarization...
+2025-11-09 23:52:31,897 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-09 23:52:31,900 - app.logger - ERROR - Failed to load transcription model: No module named 'transformers'
+2025-11-09 23:52:31,900 - app.logger - ERROR - WhisperX processing failed: No module named 'transformers'
+Traceback (most recent call last):
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\app\services\transcription.py", line 39, in transcribe_and_diarize
+    load_models()
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\app\services\transcription.py", line 15, in load_models
+    models_cache.transcription_model = whisperx.load_model(
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\__init__.py", line 20, in load_model
+    asr = _lazy_import("asr")
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\__init__.py", line 5, in _lazy_import
+    module = importlib.import_module(f"whisperx.{name}")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\asr.py", line 11, in <module>
+    from transformers import Pipeline
+ModuleNotFoundError: No module named 'transformers'
+2025-11-09 23:52:53,203 - app.logger - INFO - Shutting down application...
+2025-11-09 23:52:53,203 - app.logger - INFO - Models cleaned up
+2025-11-09 23:57:04,322 - app.logger - INFO - App starting in 'production' mode
+2025-11-09 23:57:04,327 - app.logger - INFO - Using device: cpu, model: small
+2025-11-09 23:57:04,327 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-09 23:57:04,330 - app.logger - INFO - Log level set to: INFO
+2025-11-09 23:57:04,330 - app.logger - INFO - Configuration loaded successfully.
+2025-11-09 23:57:04,364 - app.logger - INFO - Starting application...
+2025-11-09 23:57:04,367 - app.logger - INFO - Preloading models...
+2025-11-09 23:57:04,367 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-09 23:57:08,784 - app.logger - ERROR - Failed to load transcription model: No module named 'pytorch_lightning'
+2025-11-09 23:57:08,784 - app.logger - ERROR - Failed to preload models: No module named 'pytorch_lightning'
+2025-11-09 23:57:23,997 - app.logger - INFO - Shutting down application...
+2025-11-09 23:57:23,999 - app.logger - INFO - Models cleaned up
+2025-11-09 23:59:17,328 - app.logger - INFO - App starting in 'production' mode
+2025-11-09 23:59:17,332 - app.logger - INFO - Using device: cpu, model: small
+2025-11-09 23:59:17,332 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-09 23:59:17,332 - app.logger - INFO - Log level set to: INFO
+2025-11-09 23:59:17,332 - app.logger - INFO - Configuration loaded successfully.
+2025-11-09 23:59:17,368 - app.logger - INFO - Starting application...
+2025-11-09 23:59:17,368 - app.logger - INFO - Preloading models...
+2025-11-09 23:59:17,368 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-09 23:59:22,730 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-09 23:59:22,730 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-09 23:59:22,734 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-09 23:59:22,734 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-09 23:59:23,200 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-09 23:59:23,200 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-09 23:59:23,376 - app.logger - ERROR - Failed to load transcription model: No module named 'matplotlib'
+2025-11-09 23:59:23,377 - app.logger - ERROR - Failed to preload models: No module named 'matplotlib'
+2025-11-09 23:59:53,442 - app.logger - INFO - Validated audio file format: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:59:53,444 - app.logger - INFO - Processing audio file: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-09 23:59:53,444 - app.logger - INFO - Starting transcription and diarization...
+2025-11-09 23:59:53,444 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-09 23:59:53,467 - app.logger - ERROR - Failed to load transcription model: No module named 'matplotlib'
+2025-11-09 23:59:53,468 - app.logger - ERROR - WhisperX processing failed: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\app\services\transcription.py", line 39, in transcribe_and_diarize
+    load_models()
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\app\services\transcription.py", line 15, in load_models
+    models_cache.transcription_model = whisperx.load_model(
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\__init__.py", line 20, in load_model
+    asr = _lazy_import("asr")
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\__init__.py", line 5, in _lazy_import
+    module = importlib.import_module(f"whisperx.{name}")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\asr.py", line 16, in <module>
+    from whisperx.vads import Vad, Silero, Pyannote
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\vads\__init__.py", line 1, in <module>
+    from whisperx.vads.pyannote import Pyannote as Pyannote
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\vads\pyannote.py", line 9, in <module>
+    from pyannote.audio.pipelines import VoiceActivityDetection
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\pipelines\__init__.py", line 28, in <module>
+    from .voice_activity_detection import VoiceActivityDetection
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\pipelines\voice_activity_detection.py", line 55, in <module>
+    from pyannote.audio.tasks import VoiceActivityDetection as VoiceActivityDetectionTask
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\tasks\__init__.py", line 23, in <module>
+    from .segmentation.multilabel import MultiLabelSegmentation  # isort:skip
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\tasks\segmentation\multilabel.py", line 37, in <module>
+    from pyannote.audio.tasks.segmentation.mixins import SegmentationTask
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\tasks\segmentation\mixins.py", line 28, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+2025-11-10 00:00:01,855 - app.logger - INFO - Shutting down application...
+2025-11-10 00:00:01,855 - app.logger - INFO - Models cleaned up
+2025-11-10 00:02:29,036 - app.logger - INFO - App starting in 'production' mode
+2025-11-10 00:02:29,036 - app.logger - INFO - Using device: cpu, model: small
+2025-11-10 00:02:29,036 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-10 00:02:29,036 - app.logger - INFO - Log level set to: INFO
+2025-11-10 00:02:29,036 - app.logger - INFO - Configuration loaded successfully.
+2025-11-10 00:02:29,075 - app.logger - INFO - Starting application...
+2025-11-10 00:02:29,077 - app.logger - INFO - Preloading models...
+2025-11-10 00:02:29,077 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-10 00:02:35,738 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-10 00:02:35,738 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-10 00:02:35,738 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-10 00:02:35,738 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-10 00:02:36,249 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-10 00:02:36,249 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-10 00:02:40,079 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-10 00:02:40,106 - app.logger - INFO - Models loaded successfully
+2025-11-10 00:03:09,285 - app.logger - INFO - Validated audio file format: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-10 00:03:09,288 - app.logger - INFO - Processing audio file: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-10 00:03:09,294 - app.logger - INFO - Starting transcription and diarization...
+2025-11-10 00:03:09,294 - app.logger - INFO - Loading audio from C:\Users\ashil.p\AppData\Local\Temp\tmp0389jj9h.tmp
+2025-11-10 00:03:10,432 - app.logger - INFO - Transcribing audio...
+2025-11-10 00:03:25,594 - app.logger - INFO - Aligning words...
+2025-11-10 00:03:36,817 - app.logger - INFO - Performing diarization...
+2025-11-10 00:04:23,843 - app.logger - INFO - ✅ Transcription complete: 16 segments
+2025-11-10 00:04:23,843 - app.logger - INFO - Starting summarization...
+2025-11-10 00:04:26,862 - app.logger - INFO - Generating summary with LLM...
+2025-11-10 00:04:29,536 - app.logger - INFO - Successfully processed audio: 16 segments
+2025-11-10 00:04:29,558 - app.logger - INFO - Cleaned up temp file: C:\Users\ashil.p\AppData\Local\Temp\tmp0389jj9h.tmp
+2025-11-10 00:09:52,515 - app.logger - INFO - App starting in 'production' mode
+2025-11-10 00:09:52,515 - app.logger - INFO - Using device: cpu, model: small
+2025-11-10 00:09:52,515 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-10 00:09:52,515 - app.logger - INFO - Log level set to: INFO
+2025-11-10 00:09:52,526 - app.logger - INFO - Configuration loaded successfully.
+2025-11-10 00:09:52,566 - app.logger - INFO - Starting application...
+2025-11-10 00:09:52,567 - app.logger - INFO - Preloading models...
+2025-11-10 00:09:52,567 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-10 00:09:58,242 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-10 00:09:58,242 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-10 00:09:58,242 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-10 00:09:58,242 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-10 00:09:58,793 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-10 00:09:58,793 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-10 00:09:58,924 - app.logger - ERROR - Failed to load transcription model: No module named 'matplotlib'
+2025-11-10 00:09:58,924 - app.logger - ERROR - Failed to preload models: No module named 'matplotlib'
+2025-11-10 00:10:12,216 - app.logger - INFO - Validated audio file format: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-10 00:10:12,218 - app.logger - INFO - Processing audio file: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-10 00:10:12,221 - app.logger - INFO - Starting transcription and diarization...
+2025-11-10 00:10:12,223 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-10 00:10:12,234 - app.logger - ERROR - Failed to load transcription model: No module named 'matplotlib'
+2025-11-10 00:10:12,234 - app.logger - ERROR - WhisperX processing failed: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\app\services\transcription.py", line 39, in transcribe_and_diarize
+    load_models()
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\app\services\transcription.py", line 15, in load_models
+    models_cache.transcription_model = whisperx.load_model(
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\__init__.py", line 20, in load_model
+    asr = _lazy_import("asr")
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\__init__.py", line 5, in _lazy_import
+    module = importlib.import_module(f"whisperx.{name}")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\asr.py", line 16, in <module>
+    from whisperx.vads import Vad, Silero, Pyannote
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\vads\__init__.py", line 1, in <module>
+    from whisperx.vads.pyannote import Pyannote as Pyannote
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\vads\pyannote.py", line 9, in <module>
+    from pyannote.audio.pipelines import VoiceActivityDetection
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\pipelines\__init__.py", line 28, in <module>
+    from .voice_activity_detection import VoiceActivityDetection
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\pipelines\voice_activity_detection.py", line 55, in <module>
+    from pyannote.audio.tasks import VoiceActivityDetection as VoiceActivityDetectionTask
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\tasks\__init__.py", line 23, in <module>
+    from .segmentation.multilabel import MultiLabelSegmentation  # isort:skip
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\tasks\segmentation\multilabel.py", line 37, in <module>
+    from pyannote.audio.tasks.segmentation.mixins import SegmentationTask
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\pyannote\audio\tasks\segmentation\mixins.py", line 28, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+2025-11-10 00:10:29,811 - app.logger - INFO - Shutting down application...
+2025-11-10 00:10:29,811 - app.logger - INFO - Models cleaned up
+2025-11-10 00:11:44,865 - app.logger - INFO - App starting in 'production' mode
+2025-11-10 00:11:44,865 - app.logger - INFO - Using device: cpu, model: small
+2025-11-10 00:11:44,875 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-10 00:11:44,875 - app.logger - INFO - Log level set to: INFO
+2025-11-10 00:11:44,875 - app.logger - INFO - Configuration loaded successfully.
+2025-11-10 00:11:44,915 - app.logger - INFO - Starting application...
+2025-11-10 00:11:44,928 - app.logger - INFO - Preloading models...
+2025-11-10 00:11:44,928 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-10 00:11:51,122 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-10 00:11:51,123 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-10 00:11:51,124 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-10 00:11:51,126 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-10 00:11:51,707 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-10 00:11:51,732 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-10 00:11:54,578 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-10 00:11:54,627 - app.logger - INFO - Models loaded successfully
+2025-11-10 00:12:08,078 - app.logger - INFO - Validated audio file format: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-10 00:12:08,078 - app.logger - INFO - Processing audio file: How are you Part 1 - Dialogue ( lingoneo.org ).mp3 (0.50MB)
+2025-11-10 00:12:08,088 - app.logger - INFO - Starting transcription and diarization...
+2025-11-10 00:12:08,088 - app.logger - INFO - Loading audio from C:\Users\ashil.p\AppData\Local\Temp\tmpmhb8ceax.tmp
+2025-11-10 00:12:08,305 - app.logger - INFO - Transcribing audio...
+2025-11-10 00:12:23,258 - app.logger - INFO - Aligning words...
+2025-11-10 00:12:28,735 - app.logger - INFO - Performing diarization...
+2025-11-10 00:13:05,219 - app.logger - INFO - ✅ Transcription complete: 16 segments
+2025-11-10 00:13:05,219 - app.logger - INFO - Starting summarization...
+2025-11-10 00:13:06,551 - app.logger - INFO - Generating summary with LLM...
+2025-11-10 00:13:09,276 - app.logger - INFO - Successfully processed audio: 16 segments
+2025-11-10 00:13:09,290 - app.logger - INFO - Cleaned up temp file: C:\Users\ashil.p\AppData\Local\Temp\tmpmhb8ceax.tmp
+2025-11-19 18:35:46,963 - app.logger - INFO - App starting in 'production' mode
+2025-11-19 18:35:46,963 - app.logger - INFO - Using device: cpu, model: small
+2025-11-19 18:35:46,964 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-19 18:35:46,964 - app.logger - INFO - Log level set to: INFO
+2025-11-19 18:35:46,965 - app.logger - INFO - Configuration loaded successfully.
+2025-11-19 18:35:47,126 - app.logger - INFO - Starting application...
+2025-11-19 18:35:47,127 - app.logger - INFO - Preloading models...
+2025-11-19 18:35:47,127 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-19 18:36:17,514 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-19 18:36:17,514 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-19 18:36:17,515 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-19 18:36:17,516 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-19 18:36:18,148 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-19 18:36:18,148 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-19 18:36:24,513 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-19 18:36:24,613 - app.logger - INFO - Models loaded successfully
+2025-11-19 18:37:10,089 - app.logger - INFO - Validated audio file format: AUD-20251110-WA0011 (1) (mp3cut.net).wav (0.48MB)
+2025-11-19 18:37:10,090 - app.logger - INFO - Processing audio file: AUD-20251110-WA0011 (1) (mp3cut.net).wav (0.48MB)
+2025-11-19 18:37:10,092 - app.logger - INFO - Starting transcription and diarization...
+2025-11-19 18:37:10,093 - app.logger - INFO - Loading audio from C:\Users\ashil.p\AppData\Local\Temp\tmp9ymx2g4c.tmp
+2025-11-19 18:37:10,545 - app.logger - INFO - Transcribing audio...
+2025-11-19 18:37:34,281 - app.logger - INFO - Aligning words...
+2025-11-19 18:38:07,059 - app.logger - INFO - Performing diarization...
+2025-11-19 18:38:07,059 - app.logger - WARNING - Diarization failed, using single speaker. Exception: module 'whisperx' has no attribute 'DiarizationPipeline'
+2025-11-19 18:38:07,059 - app.logger - INFO - ✅ Transcription complete: 10 segments
+2025-11-19 18:38:07,059 - app.logger - INFO - Starting summarization...
+2025-11-19 18:38:09,277 - app.logger - INFO - Generating summary with LLM...
+2025-11-19 18:38:12,597 - app.logger - INFO - Successfully processed audio: 10 segments
+2025-11-19 18:38:12,621 - app.logger - INFO - Cleaned up temp file: C:\Users\ashil.p\AppData\Local\Temp\tmp9ymx2g4c.tmp
+2025-11-19 18:39:18,408 - app.logger - INFO - Shutting down application...
+2025-11-19 18:39:18,456 - app.logger - INFO - Models cleaned up
+2025-11-19 18:39:43,112 - app.logger - INFO - App starting in 'production' mode
+2025-11-19 18:39:43,112 - app.logger - INFO - Using device: cpu, model: small
+2025-11-19 18:39:43,113 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-19 18:39:43,113 - app.logger - INFO - Log level set to: INFO
+2025-11-19 18:39:43,114 - app.logger - INFO - Configuration loaded successfully.
+2025-11-19 18:39:43,195 - app.logger - INFO - Starting application...
+2025-11-19 18:39:43,196 - app.logger - INFO - Preloading models...
+2025-11-19 18:39:43,196 - app.logger - INFO - Loading WhisperX model 'small'...
+2025-11-19 18:39:46,789 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-19 18:39:46,790 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-19 18:39:46,791 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-19 18:39:46,791 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-19 18:39:48,342 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-19 18:39:48,343 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-19 18:39:54,358 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization\diarization\Lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-19 18:39:58,063 - app.logger - INFO - WhisperX and diarization models loaded successfully
+2025-11-19 18:39:58,065 - app.logger - INFO - Models loaded successfully
+2025-11-19 18:42:00,469 - app.logger - INFO - Validated audio file format: AUD-20251110-WA0011 (1) (mp3cut.net).wav (0.48MB)
+2025-11-19 18:42:00,470 - app.logger - INFO - Processing audio file: AUD-20251110-WA0011 (1) (mp3cut.net).wav (0.48MB)
+2025-11-19 18:42:00,472 - app.logger - INFO - Starting transcription and diarization...
+2025-11-19 18:42:00,473 - app.logger - INFO - Loading audio from C:\Users\ashil.p\AppData\Local\Temp\tmpu2mawyfo.tmp
+2025-11-19 18:42:01,242 - app.logger - INFO - Transcribing audio with batch processing...
+2025-11-19 18:42:26,334 - app.logger - INFO - Detected language: ar
+2025-11-19 18:42:26,335 - app.logger - INFO - Aligning words...
+2025-11-19 18:42:58,726 - app.logger - INFO - Performing diarization...
+2025-11-19 18:43:37,276 - app.logger - INFO - Processing segments and translating...
+2025-11-19 18:43:37,277 - app.logger - INFO - Translating from ar...
+2025-11-19 18:43:39,288 - app.logger - INFO - Translating from ar...
+2025-11-19 18:43:40,250 - app.logger - INFO - Translating from ar...
+2025-11-19 18:43:40,787 - app.logger - INFO - Translating from ar...
+2025-11-19 18:43:41,445 - app.logger - INFO - Translating from ar...
+2025-11-19 18:43:42,073 - app.logger - INFO - Translating from ar...
+2025-11-19 18:43:42,785 - app.logger - INFO - Translating from ar...
+2025-11-19 18:43:43,295 - app.logger - INFO - Translating from ar...
+2025-11-19 18:43:43,978 - app.logger - INFO - Translating from ar...
+2025-11-19 18:43:44,762 - app.logger - INFO - ✅ Transcription complete: 10 segments
+2025-11-19 18:43:44,762 - app.logger - INFO - Starting summarization...
+2025-11-19 18:43:44,762 - app.logger - ERROR - Error processing audio: 'text'
+Traceback (most recent call last):
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization-1\app\routes\audio.py", line 47, in process_audio
+    summary = summarize_with_langchain(dialogue)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization-1\app\services\summarization.py", line 20, in summarize_with_langchain
+    [f"{seg['speaker']}: {seg['text']}" for seg in dialogue_segments]
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization-1\app\services\summarization.py", line 20, in <listcomp>
+    [f"{seg['speaker']}: {seg['text']}" for seg in dialogue_segments]
+                          ~~~^^^^^^^^
+KeyError: 'text'
+2025-11-20 11:06:10,173 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-20 11:06:38,736 - app.logger - INFO - App starting in 'production' mode
+2025-11-20 11:06:38,736 - app.logger - INFO - Using device: cpu, model: small
+2025-11-20 11:06:38,736 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-20 11:06:38,736 - app.logger - INFO - Log level set to: INFO
+2025-11-20 11:06:38,736 - app.logger - INFO - Configuration loaded successfully.
+2025-11-20 11:06:38,758 - app.logger - INFO - Starting application...
+2025-11-20 11:06:38,759 - app.logger - INFO - Preloading models...
+2025-11-20 11:06:38,760 - app.logger - INFO - Loading WhisperX model: small
+2025-11-20 11:07:02,135 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-20 11:07:02,135 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-20 11:07:02,135 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-20 11:07:02,135 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-20 11:07:02,420 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-20 11:07:02,420 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-20 11:07:05,683 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\AppData\Local\anaconda3\envs\whisperxcpu\lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-20 11:07:05,715 - app.logger - INFO - WhisperX model loaded successfully.
+2025-11-20 11:07:05,716 - app.logger - INFO - Models loaded successfully
+2025-11-20 11:07:22,018 - app.logger - INFO - Validated audio file format: AUD-20251110-WA0011 (1) (mp3cut.net).wav (0.48MB)
+2025-11-20 11:07:22,018 - app.logger - INFO - Processing audio file: AUD-20251110-WA0011 (1) (mp3cut.net).wav (0.48MB)
+2025-11-20 11:07:22,034 - app.logger - INFO - Starting transcription and diarization...
+2025-11-20 11:07:22,034 - app.logger - INFO - Loading audio file: C:\Users\ashil.p\AppData\Local\Temp\tmppmplvx59.tmp
+2025-11-20 11:07:22,435 - app.logger - INFO - Running transcription...
+2025-11-20 11:07:45,221 - app.logger - INFO - Language detected: ar
+2025-11-20 11:07:45,221 - app.logger - INFO - Aligning timestamps...
+2025-11-20 11:08:20,232 - app.logger - INFO - Running diarization...
+2025-11-20 11:09:20,451 - app.logger - INFO - Processing segments and translating...
+2025-11-20 11:09:20,451 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:22,833 - app.logger - INFO - Translated: السلام عليكم. → Peace be upon you.
+2025-11-20 11:09:22,835 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:23,462 - app.logger - INFO - Translated: وعليكم السلام ورحمة. → And peace and mercy be upon you.
+2025-11-20 11:09:23,463 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:24,617 - app.logger - INFO - Translated: صباح الخير. → Good morning.
+2025-11-20 11:09:24,618 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:25,536 - app.logger - INFO - Translated: صباح الخير. → Good morning.
+2025-11-20 11:09:25,536 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:26,514 - app.logger - INFO - Translated: شكرا للصلك بدعم محمد. → Thank you for connecting and supporting Muhammad.
+2025-11-20 11:09:26,516 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:27,194 - app.logger - INFO - Translated: اسمي أمين كيف يمكنني مساعدة كل يوم. → My name is Amin. How can I help every day?
+2025-11-20 11:09:27,195 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:27,779 - app.logger - INFO - Translated: مرحبنا أمين. → Hello, Amin.
+2025-11-20 11:09:27,780 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:28,328 - app.logger - INFO - Translated: ماكوستين. → Macostin.
+2025-11-20 11:09:28,329 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:28,990 - app.logger - INFO - Translated: الانترنت عندي ستوقف عن العمل فجد. → The internet will stop working for me now, so plea
+2025-11-20 11:09:28,991 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:09:29,743 - app.logger - INFO - Translated: فهل يمكنك أن تدولني برقم هاتفك المسجل أو برقم هاتف → Could you please share your registered phone numbe
+2025-11-20 11:09:29,743 - app.logger - INFO - Processing complete — 10 segments
+2025-11-20 11:09:29,743 - app.logger - INFO - Starting summarization...
+2025-11-20 11:09:29,743 - app.logger - ERROR - Error processing audio: 'text'
+Traceback (most recent call last):
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization-1\app\routes\audio.py", line 47, in process_audio
+    summary = summarize_with_langchain(dialogue)
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization-1\app\services\summarization.py", line 20, in summarize_with_langchain
+    [f"{seg['speaker']}: {seg['text']}" for seg in dialogue_segments]
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization-1\app\services\summarization.py", line 20, in <listcomp>
+    [f"{seg['speaker']}: {seg['text']}" for seg in dialogue_segments]
+KeyError: 'text'
+2025-11-20 11:13:12,663 - app.logger - INFO - Shutting down application...
+2025-11-20 11:13:12,705 - app.logger - INFO - Model cache cleared.
+2025-11-20 11:16:18,227 - app.logger - INFO - App starting in 'production' mode
+2025-11-20 11:16:18,227 - app.logger - INFO - Using device: cpu, model: small
+2025-11-20 11:16:18,227 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-20 11:16:18,227 - app.logger - INFO - Log level set to: INFO
+2025-11-20 11:16:18,227 - app.logger - INFO - Configuration loaded successfully.
+2025-11-20 11:16:28,416 - app.logger - INFO - App starting in 'production' mode
+2025-11-20 11:16:28,416 - app.logger - INFO - Using device: cpu, model: small
+2025-11-20 11:16:28,425 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-20 11:16:28,425 - app.logger - INFO - Log level set to: INFO
+2025-11-20 11:16:28,427 - app.logger - INFO - Configuration loaded successfully.
+2025-11-20 11:16:28,466 - app.logger - INFO - Starting application...
+2025-11-20 11:16:28,466 - app.logger - INFO - Preloading models...
+2025-11-20 11:16:28,466 - app.logger - INFO - Loading WhisperX model: small
+2025-11-20 11:16:38,378 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _speechbrain_save
+2025-11-20 11:16:38,379 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _speechbrain_load
+2025-11-20 11:16:38,380 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-11-20 11:16:38,381 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load
+2025-11-20 11:16:39,225 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for _save
+2025-11-20 11:16:39,230 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for _recover
+2025-11-20 11:16:45,332 - pytorch_lightning.utilities.migration.utils - INFO - Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.5.6. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint C:\Users\ashil.p\AppData\Local\anaconda3\envs\whisperxcpu\lib\site-packages\whisperx\assets\pytorch_model.bin`
+2025-11-20 11:16:45,385 - app.logger - INFO - WhisperX model loaded successfully.
+2025-11-20 11:16:45,390 - app.logger - INFO - Models loaded successfully
+2025-11-20 11:18:25,582 - app.logger - INFO - Validated audio file format: AUD-20251110-WA0011 (1) (mp3cut.net).wav (0.48MB)
+2025-11-20 11:18:25,584 - app.logger - INFO - Processing audio file: AUD-20251110-WA0011 (1) (mp3cut.net).wav (0.48MB)
+2025-11-20 11:18:25,587 - app.logger - INFO - Starting transcription, diarization, and translation...
+2025-11-20 11:18:25,587 - app.logger - INFO - Loading audio file: C:\Users\ashil.p\AppData\Local\Temp\tmpoqk9pk2f.tmp
+2025-11-20 11:18:26,613 - app.logger - INFO - Running transcription...
+2025-11-20 11:18:58,591 - app.logger - INFO - Language detected: ar
+2025-11-20 11:18:58,593 - app.logger - INFO - Aligning timestamps...
+2025-11-20 11:19:36,775 - app.logger - INFO - Running diarization...
+2025-11-20 11:20:39,928 - app.logger - INFO - Processing segments and translating...
+2025-11-20 11:20:39,929 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:43,697 - app.logger - INFO - Translated: السلام عليكم. → Peace be upon you.
+2025-11-20 11:20:43,699 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:44,771 - app.logger - INFO - Translated: وعليكم السلام ورحمة. → Peace and mercy be upon you as well.
+2025-11-20 11:20:44,771 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:46,065 - app.logger - INFO - Translated: صباح الخير. → Good morning.
+2025-11-20 11:20:46,066 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:47,292 - app.logger - INFO - Translated: صباح الخير. → Good morning.
+2025-11-20 11:20:47,293 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:48,388 - app.logger - INFO - Translated: شكرا للصلك بدعم محمد. → Thank you for contacting Support Mohammad.
+2025-11-20 11:20:48,389 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:49,664 - app.logger - INFO - Translated: اسمي أمين كيف يمكنني مساعدة كل يوم. → My name is Amin. How can I help every day?
+2025-11-20 11:20:49,665 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:50,228 - app.logger - INFO - Translated: مرحبنا أمين. → Hello, Amin.
+2025-11-20 11:20:50,228 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:50,923 - app.logger - INFO - Translated: ماكوستين. → There is no cyst.
+2025-11-20 11:20:50,924 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:52,462 - app.logger - INFO - Translated: الانترنت عندي ستوقف عن العمل فجد. → My internet will stop working soon.
+2025-11-20 11:20:52,462 - app.logger - INFO - Translating using OpenAI SDK...
+2025-11-20 11:20:53,179 - app.logger - INFO - Translated: فهل يمكنك أن تدولني برقم هاتفك المسجل أو برقم هاتف → Could you please share with me your registered pho
+2025-11-20 11:20:53,179 - app.logger - INFO - Processing complete — 10 segments
+2025-11-20 11:20:53,179 - app.logger - INFO - Starting summarization...
+2025-11-20 11:20:54,150 - app.logger - INFO - Generating summary with LLM...
+2025-11-20 11:20:57,008 - app.logger - INFO - Successfully processed audio: 10 segments in 151.42s
+2025-11-20 11:20:57,028 - app.logger - INFO - Cleaned up temp file: C:\Users\ashil.p\AppData\Local\Temp\tmpoqk9pk2f.tmp
+2025-11-20 11:29:33,270 - app.logger - INFO - Shutting down application...
+2025-11-20 11:29:33,339 - app.logger - INFO - Model cache cleared.
+2025-11-20 11:35:05,289 - app.logger - INFO - App starting in 'production' mode
+2025-11-20 11:35:05,290 - app.logger - INFO - Using device: cpu, model: small
+2025-11-20 11:35:05,290 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-20 11:35:05,291 - app.logger - INFO - Log level set to: INFO
+2025-11-20 11:35:05,292 - app.logger - INFO - Configuration loaded successfully.
+2025-11-20 11:35:25,420 - app.logger - INFO - App starting in 'production' mode
+2025-11-20 11:35:25,422 - app.logger - INFO - Using device: cpu, model: small
+2025-11-20 11:35:25,423 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-20 11:35:25,424 - app.logger - INFO - Log level set to: INFO
+2025-11-20 11:35:25,425 - app.logger - INFO - Configuration loaded successfully.
+2025-11-20 11:35:25,542 - app.logger - INFO - Starting application...
+2025-11-20 11:35:25,548 - app.logger - INFO - Preloading models...
+2025-11-20 11:35:25,548 - app.services.transcription - INFO - Loading NVIDIA NeMo ASR model...
+2025-11-20 11:35:25,548 - app.services.transcription - ERROR - Failed to load models: name 'nemo_asr' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ashil.p\OneDrive - Difinity Digital\Projects\Audio Diarization-1\app\services\transcription.py", line 142, in load_models
+    # Options: "QuartzNet15x5Base-En", "JasperNet-Large-DR-En", "Citrinet-256", etc.
+NameError: name 'nemo_asr' is not defined
+2025-11-20 11:35:25,626 - app.logger - ERROR - Failed to preload models: name 'nemo_asr' is not defined
+2025-11-20 11:35:29,340 - app.logger - INFO - Shutting down application...
+2025-11-20 11:35:29,340 - app.services.transcription - INFO - Translation models cleaned up
+2025-11-20 11:35:29,340 - app.services.transcription - INFO - Models cleaned up
+2025-11-20 11:43:06,455 - app.logger - INFO - App starting in 'production' mode
+2025-11-20 11:43:06,455 - app.logger - INFO - Using device: cpu, model: small
+2025-11-20 11:43:06,455 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-20 11:43:06,462 - app.logger - INFO - Log level set to: INFO
+2025-11-20 11:43:06,462 - app.logger - INFO - Configuration loaded successfully.
+2025-11-20 11:43:11,548 - app.logger - INFO - App starting in 'production' mode
+2025-11-20 11:43:11,549 - app.logger - INFO - Using device: cpu, model: small
+2025-11-20 11:43:11,550 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-20 11:43:11,550 - app.logger - INFO - Log level set to: INFO
+2025-11-20 11:43:11,551 - app.logger - INFO - Configuration loaded successfully.
+2025-11-20 11:43:11,589 - app.logger - INFO - Starting application...
+2025-11-20 11:43:11,589 - app.logger - INFO - Preloading models...
+2025-11-20 11:43:11,590 - app.services.transcription - INFO - ✅ AssemblyAI initialized successfully
+2025-11-20 11:43:11,591 - app.logger - INFO - Models loaded successfully
+2025-11-20 11:44:46,507 - app.logger - INFO - Validated audio file format: AUD-20251110-WA0012-[AudioTrimmer.com].mp3 (0.28MB)
+2025-11-20 11:44:46,508 - app.logger - INFO - Processing audio file: AUD-20251110-WA0012-[AudioTrimmer.com].mp3 (0.28MB)
+2025-11-20 11:44:46,512 - app.logger - INFO - Starting transcription, diarization, and translation...
+2025-11-20 11:44:46,513 - app.services.transcription - INFO - Loading audio from C:\Users\ashil.p\AppData\Local\Temp\tmpofp0an4p.tmp
+2025-11-20 11:44:47,111 - app.services.transcription - INFO - Transcribing audio with AssemblyAI...
+2025-11-20 11:44:56,454 - app.services.transcription - INFO - 🔤 Detected language: en
+2025-11-20 11:44:56,455 - app.services.transcription - INFO - Confidence: 0.7901803
+2025-11-20 11:44:56,456 - app.services.transcription - INFO - Audio duration: 37s
+2025-11-20 11:44:56,457 - app.services.transcription - INFO - ✅ Transcription complete: 4 segments
+2025-11-20 11:44:58,640 - app.services.transcription - INFO - Translating from ar: السلام عليكم....
+2025-11-20 11:45:01,313 - app.services.transcription - INFO - ✅ Translation: السلام عليكم.... → Peace be upon you....
+2025-11-20 11:45:01,319 - app.services.transcription - INFO - Translating from ar: وعليكم السلام صباح الخير شكرا لتصالك بدعم هامت اسم...
+2025-11-20 11:45:03,404 - app.services.transcription - INFO - ✅ Translation: وعليكم السلام صباح الخير شكرا لتصالك بدعم هامت اسم... → Peace be upon you, good morning. Thank you for con...
+2025-11-20 11:45:03,407 - app.services.transcription - INFO - Translating from ar: السلام عليكم امين معاك فاطمة الانترنت عندي توقف عن...
+2025-11-20 11:45:05,171 - app.services.transcription - INFO - ✅ Translation: السلام عليكم امين معاك فاطمة الانترنت عندي توقف عن... → Hello Amin, this is Fatima. My internet has stoppe...
+2025-11-20 11:45:05,178 - app.services.transcription - INFO - Translating from ar: بنسوي آسف لسمع ذلك فاطمة لا تقلقي سأساعدك على تشغي...
+2025-11-20 11:45:06,569 - app.services.transcription - INFO - ✅ Translation: بنسوي آسف لسمع ذلك فاطمة لا تقلقي سأساعدك على تشغي... → I'm sorry to hear that, Fatima. Don't worry, I'll ...
+2025-11-20 11:45:06,569 - app.services.transcription - INFO - ✅ Final output: 4 segments
+2025-11-20 11:45:06,570 - app.services.transcription - INFO - Speaker distribution: {'Speaker 1': 2, 'Speaker 2': 2}
+2025-11-20 11:45:06,572 - app.logger - INFO - Starting summarization...
+2025-11-20 11:45:07,590 - app.logger - INFO - Generating summary with LLM...
+2025-11-20 11:45:09,809 - app.logger - INFO - Successfully processed audio: 4 segments in 23.30s
+2025-11-20 11:45:09,834 - app.logger - INFO - Cleaned up temp file: C:\Users\ashil.p\AppData\Local\Temp\tmpofp0an4p.tmp
+2025-11-20 11:45:53,479 - app.logger - INFO - Validated audio file format: AUD-20251110-WA0012.amr (0.23MB)
+2025-11-20 11:45:53,480 - app.logger - INFO - Processing audio file: AUD-20251110-WA0012.amr (0.23MB)
+2025-11-20 11:45:53,483 - app.logger - INFO - Starting transcription, diarization, and translation...
+2025-11-20 11:45:53,484 - app.services.transcription - INFO - Loading audio from C:\Users\ashil.p\AppData\Local\Temp\tmpfv18ryub.tmp
+2025-11-20 11:45:53,485 - app.services.transcription - INFO - Transcribing audio with AssemblyAI...
+2025-11-20 11:46:06,478 - app.services.transcription - INFO - 🔤 Detected language: en
+2025-11-20 11:46:06,494 - app.services.transcription - INFO - Confidence: 0.777843
+2025-11-20 11:46:06,496 - app.services.transcription - INFO - Audio duration: 159s
+2025-11-20 11:46:06,496 - app.services.transcription - INFO - ✅ Transcription complete: 17 segments
+2025-11-20 11:46:06,501 - app.services.transcription - INFO - Translating from ar: السلام عليكم وعليكم السلام اه صباح الخير....
+2025-11-20 11:46:08,494 - app.services.transcription - INFO - ✅ Translation: السلام عليكم وعليكم السلام اه صباح الخير.... → Peace be upon you, and upon you peace, yes, good m...
+2025-11-20 11:46:08,494 - app.services.transcription - INFO - Translating from ar: شكرا لتصالك بدعم هامت اسمي امين كيف ممكن اني مساعد...
+2025-11-20 11:46:10,227 - app.services.transcription - INFO - ✅ Translation: شكرا لتصالك بدعم هامت اسمي امين كيف ممكن اني مساعد... → Thank you for contacting Hamet support. My name is...
+2025-11-20 11:46:10,231 - app.services.transcription - INFO - Translating from ar: امين معاك فاطمة الانترنت عندي توقف عن العمل فجأة و...
+2025-11-20 11:46:12,442 - app.services.transcription - INFO - ✅ Translation: امين معاك فاطمة الانترنت عندي توقف عن العمل فجأة و... → Amin, this is Fatima. My internet suddenly stopped...
+2025-11-20 11:46:12,446 - app.services.transcription - INFO - Translating from ar: اسف لسمع ذلك فاطمة لا تقلقي سأساعدك على تشغيله من ...
+2025-11-20 11:46:13,676 - app.services.transcription - INFO - ✅ Translation: اسف لسمع ذلك فاطمة لا تقلقي سأساعدك على تشغيله من ... → Sorry to hear that, Fatima. Don't worry, I'll help...
+2025-11-20 11:46:13,676 - app.services.transcription - INFO - Translating from ar: رقم الحاتف أكيد طبعاً زيك تسجل 05 97 04 19 29 شكرا...
+2025-11-20 11:46:15,426 - app.services.transcription - INFO - ✅ Translation: رقم الحاتف أكيد طبعاً زيك تسجل 05 97 04 19 29 شكرا... → The phone number is definitely, of course, like yo...
+2025-11-20 11:46:15,427 - app.services.transcription - INFO - Translating from ar: طلعت على حسابك الآن أرى أن الاتصال فعال دعنا نجرب ...
+2025-11-20 11:46:19,169 - app.services.transcription - INFO - ✅ Translation: طلعت على حسابك الآن أرى أن الاتصال فعال دعنا نجرب ... → I checked your account just now and I see that the...
+2025-11-20 11:46:19,174 - app.services.transcription - INFO - Translating from ar: متفرقة إنها قمت وليس سبب السراحة تمام....
+2025-11-20 11:46:20,173 - app.services.transcription - INFO - ✅ Translation: متفرقة إنها قمت وليس سبب السراحة تمام.... → It's miscellaneous, not exactly the reason for hon...
+2025-11-20 11:46:20,178 - app.services.transcription - INFO - Translating from ar: هذه عادة يعني ان المودل لايتلقى اشارة مستقرة من فض...
+2025-11-20 11:46:21,859 - app.services.transcription - INFO - ✅ Translation: هذه عادة يعني ان المودل لايتلقى اشارة مستقرة من فض... → This usually means that the modem is not receiving...
+2025-11-20 11:46:21,859 - app.services.transcription - INFO - Translating from ar: عودي توصيله مرة اخرى عادت؟ صح الادواء عادت صح ممتا...
+2025-11-20 11:46:23,338 - app.services.transcription - INFO - ✅ Translation: عودي توصيله مرة اخرى عادت؟ صح الادواء عادت صح ممتا... → Did the connection come back again? The medicine r...
+2025-11-20 11:46:23,342 - app.services.transcription - INFO - Translating from ar: ممتاز ممتاز هل يمكنك ان تضحك غيري مما اذا كانت شبك...
+2025-11-20 11:46:24,673 - app.services.transcription - INFO - ✅ Translation: ممتاز ممتاز هل يمكنك ان تضحك غيري مما اذا كانت شبك... → Excellent, excellent. Can you make someone else la...
+2025-11-20 11:46:24,675 - app.services.transcription - INFO - Translating from ar: الحاسوب نعم طبعا نعم متطلع الآن الصفحات تشغل بشكل ...
+2025-11-20 11:46:25,810 - app.services.transcription - INFO - ✅ Translation: الحاسوب نعم طبعا نعم متطلع الآن الصفحات تشغل بشكل ... → Yes, of course, the computer is now loading the pa...
+2025-11-20 11:46:25,815 - app.services.transcription - INFO - Translating from ar: يبدو ان المودم كان يحتاج فقط الى عادة تشغيل بسيطة....
+2025-11-20 11:46:26,691 - app.services.transcription - INFO - ✅ Translation: يبدو ان المودم كان يحتاج فقط الى عادة تشغيل بسيطة.... → It seems that the modem just needed a simple resta...
+2025-11-20 11:46:26,693 - app.services.transcription - INFO - Translating from ar: شكراً جزيلاً أمي والله....
+2025-11-20 11:46:27,530 - app.services.transcription - INFO - ✅ Translation: شكراً جزيلاً أمي والله.... → Thank you so much, Mom, I swear....
+2025-11-20 11:46:27,533 - app.services.transcription - INFO - Translating from ar: شكراً عفواً عفواً عفواً على رحبة أستاذة فاطمة شعيد...
+2025-11-20 11:46:29,008 - app.services.transcription - INFO - ✅ Translation: شكراً عفواً عفواً عفواً على رحبة أستاذة فاطمة شعيد... → Thank you, sorry, sorry, sorry for the inconvenien...
+2025-11-20 11:46:29,010 - app.services.transcription - INFO - Translating from ar: كل شيء شكراً جزيلاً من دواعي سريري....
+2025-11-20 11:46:29,809 - app.services.transcription - INFO - ✅ Translation: كل شيء شكراً جزيلاً من دواعي سريري.... → Everything is greatly appreciated, it's my pleasur...
+2025-11-20 11:46:29,815 - app.services.transcription - INFO - Translating from ar: شكراً لتصالك بدعم هذه أتمنى لك يوم....
+2025-11-20 11:46:30,836 - app.services.transcription - INFO - ✅ Translation: شكراً لتصالك بدعم هذه أتمنى لك يوم.... → Thank you for contacting support. I wish you a goo...
+2025-11-20 11:46:30,839 - app.services.transcription - INFO - Translating from ar: جميلة وأنت كذلك مع السلامة مع السلامة....
+2025-11-20 11:46:32,312 - app.services.transcription - INFO - ✅ Translation: جميلة وأنت كذلك مع السلامة مع السلامة.... → Beautiful, and so are you. Goodbye, goodbye....
+2025-11-20 11:46:32,313 - app.services.transcription - INFO - ✅ Final output: 17 segments
+2025-11-20 11:46:32,314 - app.services.transcription - INFO - Speaker distribution: {'Speaker 1': 9, 'Speaker 2': 8}
+2025-11-20 11:46:32,314 - app.logger - INFO - Starting summarization...
+2025-11-20 11:46:32,315 - app.logger - INFO - Generating summary with LLM...
+2025-11-20 11:46:35,001 - app.logger - INFO - Successfully processed audio: 17 segments in 41.52s
+2025-11-20 11:46:35,003 - app.logger - INFO - Cleaned up temp file: C:\Users\ashil.p\AppData\Local\Temp\tmpfv18ryub.tmp
+2025-11-20 11:51:18,980 - app.logger - INFO - Shutting down application...
+2025-11-20 11:51:18,981 - app.services.transcription - INFO - Models cleaned up
+2025-11-20 11:51:24,698 - app.logger - INFO - App starting in 'production' mode
+2025-11-20 11:51:24,698 - app.logger - INFO - Using device: cpu, model: small
+2025-11-20 11:51:24,700 - app.logger - INFO - Temporary directory: C:\Users\ashil.p\AppData\Local\Temp
+2025-11-20 11:51:24,700 - app.logger - INFO - Log level set to: INFO
+2025-11-20 11:51:24,700 - app.logger - INFO - Configuration loaded successfully.
+2025-11-20 11:51:24,720 - app.logger - INFO - Starting application...
+2025-11-20 11:51:24,720 - app.logger - INFO - Preloading models...
+2025-11-20 11:51:24,720 - app.services.transcription - INFO - ✅ AssemblyAI initialized successfully
+2025-11-20 11:51:24,720 - app.logger - INFO - Models loaded successfully
+2025-11-20 11:51:55,110 - app.logger - INFO - Shutting down application...
+2025-11-20 11:51:55,110 - app.services.transcription - INFO - Models cleaned up
