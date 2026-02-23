@@ -1,0 +1,12 @@
+PyMuPDF=1.26.1
+openai
+langchain
+langsmith
+numpy
+pandas
+git+https://github.com/langchain-ai/filtz.git
+python-dotenv
+langchain-groq
+pandasai
+langgraph
+transformers
